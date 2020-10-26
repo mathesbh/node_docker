@@ -1,0 +1,3 @@
+Criação da imagem docker
+*docker build -t <nome do container criado> .(local onde esta o docker file)
+
