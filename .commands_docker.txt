@@ -1,3 +1,19 @@
 Criação da imagem docker
 *docker build -t <nome do container criado> .(local onde esta o docker file)
 
+Rodar a aplicação em docker
+*docker run -p 3000:3000(qual porta usar) -d matheus/dockernode(nome do container)
+
+Alguns comandos
+*docker ps (containers em execução)
+
+*docker stop (id container)(parar container)
+
+*docker rm (id container)(remover container)
+
+Iniciar docker compose
+*docker-compose up
+
+Parar docker compose
+*docker-compose down
+
